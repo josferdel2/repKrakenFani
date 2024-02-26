@@ -1,0 +1,300 @@
+Last login: Tue Feb  6 12:06:07 on ttys000
+/usr/local/microsoft/powershell/7/pwsh ; exit;                                  
+fani@MacBook-Air-de-Fani ~ % /usr/local/microsoft/powershell/7/pwsh ; exit;
+PowerShell 7.4.1
+PS /Users/fani> gitlog      
+gitlog: The term 'gitlog' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> gitstatus
+gitstatus: The term 'gitstatus' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> gitinit  
+gitinit: The term 'gitinit' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> git log      
+fatal: Not a git repository (or any of the parent directories): .git
+PS /Users/fani> deskopt      
+deskopt: The term 'deskopt' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani>  Set-Location
+PS /Users/fani> Set-Location -Path "C:\Users\admin\Deskopt"                 
+Set-Location: Cannot find drive. A drive with the name 'C' does not exist.
+PS /Users/fani> Set-Location -Path PS/Users/fani/Desktop   
+Set-Location: Cannot find path '/Users/fani/PS/Users/fani/Desktop' because it does not exist.
+PS /Users/fani> $ ls              
+$: The term '$' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> $ ls 
+$: The term '$' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> cd
+PS /Users/fani> git status
+fatal: Not a git repository (or any of the parent directories): .git
+PS /Users/fani> % git init                             
+ForEach-Object: You cannot call a method on a null-valued expression.
+PS /Users/fani> git init  
+Initialized empty Git repository in /Users/fani/.git/
+PS /Users/fani> Get-ChildItem 'Users/fani/Escritorio'                       
+Get-ChildItem: Cannot find path '/Users/fani/Users/fani/Escritorio' because it does not exist.
+PS /Users/fani> Get-ChildItem 'Escritorio'           
+Get-ChildItem: Cannot find path '/Users/fani/Escritorio' because it does not exist.
+PS /Users/fani> Get-ChildItem 'Desktop'                          
+
+    Directory: /Users/fani/Desktop
+
+UnixMode         User Group         LastWriteTime         Size Name
+--------         ---- -----         -------------         ---- ----
+drwxr-xr-x       fani staff      28/11/2023 06:20          704 Binnari Energy
+drwxr-xr-x       fani staff      28/11/2023 06:21          192 Cereria present
+drwxr-xr-x       fani staff      28/11/2023 13:19         1408 escritorio
+drwxr-xr-x       fani staff       25/1/2024 06:07          288 esquema 
+                                                               notas:media
+drwxr-xr-x       fani staff      15/12/2023 20:16          352 Examen Lenguajes
+drwxr-xr-x       fani staff       24/1/2024 20:45           64 HelloGit
+drwxr-xr-x       fani staff        6/5/2022 06:42          384 ideas shootings
+drwxr-xr-x       fani staff       24/2/2023 13:14          480 inspiracion 
+                                                               velas
+lrwxr-xr-x       fani staff        3/2/2024 20:27           29 Ítems reubicado
+                                                               s.nosync -> /Use
+                                                               rs/Shared/Reloca
+                                                               ted Items
+drwxr-xr-x       fani staff      18/11/2023 07:53          224 navidad23 -ideas
+drwxr-xr-x       fani staff        4/2/2024 18:48          224 ProyMrPotatoBash
+drwxr-xr-x       fani staff        4/2/2024 17:55          320 ProyMrPotatoKrak
+                                                               en
+drwxr-xr-x       fani staff        3/2/2024 10:40          160 prueba
+drwxr-xr-x       fani staff      28/11/2023 06:21          224 web
+-rw-r--r--       fani staff        9/2/2021 19:02       231836 AngariPeppers
+-rw-r--r--       fani staff       8/11/2022 11:43       183100 Captura de
+                                                               pantalla
+                                                               2022-11-08 a
+                                                               las 11.43.34.png
+-rw-r--r--       fani staff      11/11/2022 12:49       114617 Captura de
+                                                               pantalla
+                                                               2022-11-11 a
+                                                               las 12.49.13.png
+-rw-r--r--       fani staff        5/4/2023 15:11       122119 Captura de
+                                                               pantalla
+                                                               2023-04-05 a
+                                                               las 15.11.32.png
+-rw-r--r--       fani staff       18/5/2023 13:37        36819 Captura de
+                                                               pantalla
+                                                               2023-05-18 a
+                                                               las 13.36.55.png
+-rw-r--r--       fani staff       18/5/2023 13:39       105672 Captura de
+                                                               pantalla
+                                                               2023-05-18 a
+                                                               las 13.39.10.png
+-rw-r--r--       fani staff      22/11/2023 19:58       305735 Captura de
+                                                               pantalla
+                                                               2023-11-22 a
+                                                               las 19.58.10.png
+-rw-r--r--       fani staff      26/11/2023 18:29       137427 Captura de
+                                                               pantalla
+                                                               2023-11-26 a
+                                                               las 18.29.26.png
+-rw-r--r--       fani staff      10/12/2023 21:47       402330 Captura de
+                                                               pantalla
+                                                               2023-12-10 a
+                                                               las 21.47.08.png
+-rw-r--r--       fani staff      10/12/2023 21:49       405326 Captura de
+                                                               pantalla
+                                                               2023-12-10 a
+                                                               las 21.49.07.png
+-rw-r--r--       fani staff      10/12/2023 21:55       418024 Captura de
+                                                               pantalla
+                                                               2023-12-10 a
+                                                               las 21.55.49.png
+-rw-r--r--       fani staff      10/12/2023 21:59       405169 Captura de
+                                                               pantalla
+                                                               2023-12-10 a
+                                                               las 21.58.54.png
+-rw-r--r--       fani staff      13/12/2023 22:28       661381 Captura de
+                                                               pantalla
+                                                               2023-12-13 a
+                                                               las 22.28.30.png
+-rw-r--r--       fani staff        1/2/2024 17:24      1571227 Captura de
+                                                               pantalla
+                                                               2024-02-01 a
+                                                               las 17.24.46.png
+-rw-r--r--       fani staff        1/2/2024 17:26      1341523 Captura de
+                                                               pantalla
+                                                               2024-02-01 a
+                                                               las 17.26.16.png
+-rw-r--r--       fani staff        2/2/2024 13:04        36097 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 13.04.09.png
+-rw-r--r--       fani staff        2/2/2024 14:17       926952 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 14.17.50.png
+-rw-r--r--       fani staff        2/2/2024 14:41       939883 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 14.41.05.png
+-rw-r--r--       fani staff        2/2/2024 16:14      1918384 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 16.14.05.png
+-rw-r--r--       fani staff        2/2/2024 16:16       855566 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 16.16.34.png
+-rw-r--r--       fani staff        2/2/2024 09:37       537736 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 9.37.30.png
+-rw-r--r--       fani staff        2/2/2024 09:38      1185796 Captura de
+                                                               pantalla
+                                                               2024-02-02 a
+                                                               las 9.38.21.png
+-rw-r--r--       fani staff        3/2/2024 10:42       335039 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 10.42.23.png
+-rw-r--r--       fani staff        3/2/2024 10:49       360253 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 10.49.14.png
+-rw-r--r--       fani staff        3/2/2024 10:50       326558 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 10.50.33.png
+-rw-r--r--       fani staff        3/2/2024 11:01       341218 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.01.27.png
+-rw-r--r--       fani staff        3/2/2024 11:05       313093 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.05.31.png
+-rw-r--r--       fani staff        3/2/2024 11:06       350392 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.06.15.png
+-rw-r--r--       fani staff        3/2/2024 11:09       378463 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.09.14.png
+-rw-r--r--       fani staff        3/2/2024 11:10       404748 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.09.58.png
+-rw-r--r--       fani staff        3/2/2024 11:22        62882 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.22.03.png
+-rw-r--r--       fani staff        3/2/2024 11:27        63018 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.27.50.png
+-rw-r--r--       fani staff        3/2/2024 11:29       370996 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 11.29.16.png
+-rw-r--r--       fani staff        3/2/2024 17:17       216255 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 17.17.49.png
+-rw-r--r--       fani staff        3/2/2024 17:18       203774 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 17.18.06.png
+-rw-r--r--       fani staff        3/2/2024 17:18       207060 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 17.18.17.png
+-rw-r--r--       fani staff        3/2/2024 17:19       200292 Captura de
+                                                               pantalla
+                                                               2024-02-03 a
+                                                               las 17.19.37.png
+-rw-r--r--       fani staff        4/2/2024 18:01        66009 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.01.45.png
+-rw-r--r--       fani staff        4/2/2024 18:04        20208 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.04.26.png
+-rw-r--r--       fani staff        4/2/2024 18:07        47394 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.07.28.png
+-rw-r--r--       fani staff        4/2/2024 18:07        40009 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.07.47.png
+-rw-r--r--       fani staff        4/2/2024 18:18        59325 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.18.37.png
+-rw-r--r--       fani staff        4/2/2024 18:21        48327 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.21.07.png
+-rw-r--r--       fani staff        4/2/2024 18:37        52463 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.37.42.png
+-rw-r--r--       fani staff        4/2/2024 18:41        56827 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.41.44.png
+-rw-r--r--       fani staff        4/2/2024 18:46        54707 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.46.38.png
+-rw-r--r--       fani staff        4/2/2024 18:47        93934 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.47.12.png
+-rw-r--r--       fani staff        4/2/2024 18:49        37952 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.49.03.png
+-rw-r--r--       fani staff        4/2/2024 18:51        47155 Captura de
+                                                               pantalla
+                                                               2024-02-04 a
+                                                               las 18.51.28.png
+-rw-r--r--       fani staff        6/2/2024 09:38       415915 Captura de
+                                                               pantalla
+                                                               2024-02-06 a
+                                                               las 9.38.34.png
+-rw-r--r--       fani staff        6/2/2024 09:39       180831 Captura de
+                                                               pantalla
+                                                               2024-02-06 a
+                                                               las 9.38.55.png
+-rw-r--r--       fani staff        6/2/2024 09:40       244767 Captura de
+                                                               pantalla
+                                                               2024-02-06 a
+                                                               las 9.40.34.png
+-rw-r--r--       fani staff      10/12/2023 22:00      2324276 correcció.jpg
+-rwxrwxrwx       fani staff       13/5/2022 07:54      2504986 IMG_20220511_194
+                                                               949.jpg
+-rwxrwxrwx       fani staff        4/7/2022 15:22       173523 IMG-20210308-WA0
+                                                               009.jpg
+-rwx------       fani staff        4/2/2024 19:09       940491 Introducción a 
+                                                               GIT Bash.pages
+-rw-r--r--       fani staff        4/2/2024 19:11       523552 Introducción a
+                                                               GIT Bash.pdf
+-rw-r--r--       fani staff      22/12/2023 19:20      2527033 MerryChristmas_g
+                                                               uidaide.png
+
+PS /Users/fani> Set-Location 'Desktop/MrPotato'               
+Set-Location: Cannot find path '/Users/fani/Desktop/MrPotato' because it does not exist.
+PS /Users/fani> Set-Location 'ProyMrPotatoBash'
+Set-Location: Cannot find path '/Users/fani/ProyMrPotatoBash' because it does not exist.
+PS /Users/fani> Set-Lotation 'Desktop/ProyMrPotatoBash'
+Set-Lotation: The term 'Set-Lotation' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /Users/fani> Set-Location -Path PS/Users/fani/Desktop/ProyMrPotatoBash
+Set-Location: Cannot find path '/Users/fani/PS/Users/fani/Desktop/ProyMrPotatoBash' because it does not exist.
+PS /Users/fani> HEAD
+
+
+Set_location
+Set_location
+cd
+cd
+
